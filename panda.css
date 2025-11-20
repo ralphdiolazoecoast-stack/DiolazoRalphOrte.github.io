@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.header-banner {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+.main-container {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.main-container p {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #444;
+}
+
+.main-banner {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.action-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e63946;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.action-btn:hover {
+    background-color: #d62839;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    width: 220px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.image-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.image-item h2 {
+    margin: 12px 0 6px;
+    font-size: 18px;
+    color: #333;
+}
+
+.image-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    flex-grow: 1;
+}
+
+.page-footer {
+    margin: 60px 0 20px;
+    color: #777;
+    text-align: center;
+    font-size: 12px;
+}
+
+.page-footer a {
+    color: #777;
+    text-decoration: none;
+}
+
+.page-footer a.launch-link {
+    color: rgba(119, 119, 119, 0.4);
+}
+
